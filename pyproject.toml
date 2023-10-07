@@ -3,11 +3,16 @@ name = "chat-bot"
 version = "0.1.0"
 description = "Add your description here"
 authors = [
-    { name = "ac-nakamura-y", email = "y.nakamura@activecore.jp" }
+    { name = "winnie279", email = "" }
 ]
-dependencies = []
+dependencies = [
+    "langchain>=0.0.310",
+    "openai~=0.28.1",
+    "unstructured>=0.10.19",
+    "markdown>=3.5",
+]
 readme = "README.md"
-requires-python = ">= 3.8"
+requires-python = ">= 3.11"
 
 [build-system]
 requires = ["hatchling"]
